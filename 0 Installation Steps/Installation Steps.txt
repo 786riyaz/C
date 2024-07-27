@@ -1,0 +1,15 @@
+1. Go to Browser and Search for "mingw".
+2. Open the link from source forge and download the setup
+3. Open the downloaded file.
+4. Click on "Install" and "Continue".
+5. MinGW Installation Manager will be open.
+6. Select option of "mingw32-gcc-g++".
+7. Go to Installation tab than click on "Apply Changes" then "Apply"
+8. Close all the tab. Intallation is completed.
+
+
+9. Go to C Drive::/MinGW/bin and copy the path from the address bar ( C:\MinGW\bin)
+10. Add this path in environment variable.
+
+To check in your setup in completely installed or not.
+    Run "gcc" in CMD.
