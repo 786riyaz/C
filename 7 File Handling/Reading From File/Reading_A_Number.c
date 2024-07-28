@@ -7,5 +7,5 @@ void main()
     int num;
     fscanf(ptr, "%d", &num);
     fclose(ptr);
-    printf("Scaned number from the file is :: %d", num);
+    printf("\nScanned number from the file is :: %d\n", num);
 }
