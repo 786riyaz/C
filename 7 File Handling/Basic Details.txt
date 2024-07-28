@@ -1,0 +1,28 @@
+Sysntax ::
+
+FILE *ptr;
+ptr = fopen("filename.ext", "mode");
+============================================================================
+File Opening Modes ::
+r       open for reading
+rb      open for reading in binary
+w       open for writing
+wb      open for writing in binary
+a       open for append
+
+r, rb   :: If the file does not exist, fopen returns NULL.
+w, wb   :: If the file exists, the contents will be overwritten.
+a       :: If the file does not exist, it will be created.
+============================================================================
+Types of Files :: 
+2 Types of files ::
+    1. Text Files :: .txt   .c
+    2. Binary Files :: .jpg     .dat
+============================================================================
+fscanf ==> is file counter part of scanf to read the file
+fprintf ==> to write in file
+fgetc ==> used to read a character from file
+fputc ==> used to write character 'c' to the file
+fclose ==> to close the file
+============================================================================
+EOF ==> End of File
